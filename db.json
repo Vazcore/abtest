@@ -32,7 +32,7 @@
     },
     {
       "id" : 3,
-      "experiment_id" : 1,
+      "experiment_id" : 2,
       "label" : "Label 3",
       "allocation" : 40,
       "description" : "Description 3",
@@ -44,6 +44,59 @@
       "impressions" : 2,
       "action_rate" : 100.0,
       "improvement" : -100.0
+    }
+  ],
+  "experiments": [ 
+    {
+      "id" : 1,
+      "app_name" : "Midas",
+      "created" : "06/05/2019 11:00 AM",
+      "description" : "Description 1",
+      "end_time" : "06/05/2019 11:00 AM",
+      "hypothesis_is_correct" : "varchar",
+      "is_quick" : 1,
+      "label" : "Experiment Name",
+      "modified" : "06/05/2019 11:00 AM",
+      "request_cap" : 1000,
+      "results" : "Results",
+      "rules" : "{\"rule\": false}",
+      "sample_percent" : 25,
+      "start_time" : "06/05/2019 11:00 AM",
+      "state" : "ACTIVE"
+    },
+    {
+      "id" : 2,
+      "app_name" : "Midas",
+      "created" : "06/05/2019 11:00 AM",
+      "description" : "Description 2",
+      "end_time" : "06/05/2019 11:00 AM",
+      "hypothesis_is_correct" : "varchar",
+      "is_quick" : 1,
+      "label" : "Experiment 2",
+      "modified" : "06/05/2019 11:00 AM",
+      "request_cap" : 1000,
+      "results" : "Results",
+      "rules" : "{\"rule\": false}",
+      "sample_percent" : 25,
+      "start_time" : "06/05/2019 11:00 AM",
+      "state" : "ACTIVE"
+    },
+    {
+      "id" : 3,
+      "app_name" : "Midas",
+      "created" : "06/05/2019 11:00 AM",
+      "description" : "Description 3",
+      "end_time" : "06/05/2019 11:00 AM",
+      "hypothesis_is_correct" : "varchar",
+      "is_quick" : 0,
+      "label" : "Experiment 3",
+      "modified" : "06/05/2019 11:00 AM",
+      "request_cap" : 1000,
+      "results" : "Results",
+      "rules" : "{\"rule\": false}",
+      "sample_percent" : 25,
+      "start_time" : "06/05/2019 11:00 AM",
+      "state" : "ACTIVE"
     }
   ]
 }
