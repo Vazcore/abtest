@@ -1,0 +1,49 @@
+{
+  "buckets": [ 
+    {
+      "id" : 1,
+      "experiment_id" : 1,
+      "label" : "Label 1",
+      "allocation" : 80,
+      "description" : "Description 1",
+      "is_control" : 1,
+      "payload" : "{\"modelId\":\"solrab8-lr-search-sk46-1004\"}",
+      "state" : "OPEN",
+      "assignments" : 1,
+      "actions" : 1,
+      "impressions" : 1,
+      "action_rate" : 100.0,
+      "improvement" : -100.0
+    },
+    {
+      "id" : 2,
+      "experiment_id" : 1,
+      "label" : "Label 2",
+      "allocation" : 50,
+      "description" : "Description 2",
+      "is_control" : 1,
+      "payload" : "{\"modelId\":\"solrab8-lr-search-sk46-1004\"}",
+      "state" : "CLOSED",
+      "assignments" : 2,
+      "actions" : 1,
+      "impressions" : 1,
+      "action_rate" : 100.0,
+      "improvement" : -100.0
+    },
+    {
+      "id" : 3,
+      "experiment_id" : 1,
+      "label" : "Label 3",
+      "allocation" : 40,
+      "description" : "Description 3",
+      "is_control" : 1,
+      "payload" : "{\"modelId\":\"solrab8-lr-search-sk46-1004\"}",
+      "state" : "CLOSED",
+      "assignments" : 3,
+      "actions" : 2,
+      "impressions" : 2,
+      "action_rate" : 100.0,
+      "improvement" : -100.0
+    }
+  ]
+}
